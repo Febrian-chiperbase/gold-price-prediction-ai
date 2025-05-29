@@ -35,9 +35,6 @@ Repositori ini berisi kode Python untuk melakukan analisis dan prediksi harga em
 ├── src/                # Direktori berisi kode sumber utama
 │   └── analisis_emas.py # Skrip utama untuk analisis dan prediksi
 └── images/             # Direktori berisi gambar hasil plot
-    └── gold_prediction_lstm.png
-    # Tambahkan gambar hasil Prophet jika ada
-```
 
 ## Instalasi dan Penggunaan
 
@@ -52,8 +49,9 @@ Repositori ini berisi kode Python untuk melakukan analisis dan prediksi harga em
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone [https://github.com/NAMA_USER_ANDA/NAMA_REPOSITORI_ANDA.git](https://github.com/NAMA_USER_ANDA/NAMA_REPOSITORI_ANDA.git)
-    cd NAMA_REPOSITORI_ANDA
+    git clone [https://github.com/Febrian-chiperbase/gold-price-prediction-ai.git](https://github.com/Febrian-chiperbase/gold-price-prediction-ai.git)
+    cd gold-price-prediction-ai/analisis_emas.py
+    python analisis_emas.py
     ```
 
 2.  **Buat dan aktifkan lingkungan virtual Python:**
@@ -84,9 +82,6 @@ Repositori ini berisi kode Python untuk melakukan analisis dan prediksi harga em
 Berikut adalah contoh plot hasil prediksi menggunakan model LSTM:
 
 ![Analisis Harga Emas Menggunakan LSTM](images/gold_prediction_lstm.png)
-*(Deskripsikan secara singkat apa yang ditunjukkan oleh plot ini, misalnya perbandingan harga aktual dengan prediksi training, testing, dan masa depan).*
-
-*(Tambahkan juga deskripsi dan gambar untuk hasil Prophet jika sudah ada)*
 
 ## Kontribusi
 
@@ -98,4 +93,4 @@ Proyek ini dibuat untuk tujuan edukasi dan eksplorasi teknologi AI dalam analisi
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah [LISENSI_ANDA] - lihat file `LICENSE` (jika ada) untuk detailnya. (Contoh: MIT License)
+Proyek ini dilisensikan di bawah apache2.0 - lihat file `LICENSE` 
